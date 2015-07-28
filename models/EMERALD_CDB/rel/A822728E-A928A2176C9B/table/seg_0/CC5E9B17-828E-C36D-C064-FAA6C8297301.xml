@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC5E9B17-828E-C36D-C064-FAA6C8297301" name="CHANGE_LOG">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CHANGE_ID" id="3D4B65E1-74B6-51DC-D8EB-85155554D568">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<constraintName>NN_CH_LG_CHANGE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="CHANGE_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_ID" id="F653B25E-1669-7FC6-FBB8-7B36AC755CE8">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<constraintName>NN_CH_LG_OBJECT_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="OBJECT_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_TYPE" id="B194E15E-3CB7-E37D-440A-E4F33B109339">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERATION" id="98F69718-8798-EEC0-BC45-B51F50CEC03E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F7D18D27-4439-EF04-8327-7292909218FF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHANGE_DATE" id="1B214B0A-1DB5-B23D-B72E-1FA434A6D048">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<constraintName>NN_CH_LG_CHANGE_DATE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>5BAAEC99-68DC-46CD-1E47-AB5EC2D25CA9</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="CHANGE_DATE IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="8D5CEEF9-099D-E1AA-64CB-A65CAF8FD7E3">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>0BBDF35F-D4A9-B1FC-2EFF-DCE1F6218472</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB84DA1-7EEA-DE15-1E13-1B385BDED814" referredColumn="0BBDF35F-D4A9-B1FC-2EFF-DCE1F6218472"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC91648D-8669-9983-BBE4-EB0A74DE2D8B" name="PK_CHANGE_LOG">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D4B65E1-74B6-51DC-D8EB-85155554D568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56AC66EF-11AF-1478-C9D8-7CE9DE592899" name="FK_USR_CH_LG">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D5CEEF9-099D-E1AA-64CB-A65CAF8FD7E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

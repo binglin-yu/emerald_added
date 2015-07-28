@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AB5D157-714C-65C1-4B7D-E02CF7BAFC2F" name="PROJECT_DOCUMENT_STAGES_ML">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:52:19 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_DOCUMENT_STAGE_ID" id="005BBBF8-CD7E-CC32-F227-7DDBEEC63A95">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:52:57 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>6A62D315-A6B5-05ED-94D6-15FEC8402DF9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B8506EB-EBDB-D0BF-BF5F-4B4ADC09261F" referredColumn="6A62D315-A6B5-05ED-94D6-15FEC8402DF9"/>
+</associations>
+</Column>
+<Column name="STAGE_NAME" id="E578666D-F865-4C9C-78E9-FB5E5258A1B0">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:54:27 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAGE_DESCIPTION" id="3B220DA6-C828-E175-527A-AA7813423A3A">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:54:27 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE_ID" id="A6EA65A3-97FE-D1F0-2F58-26131C275025">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:55:13 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="083CD770-49F8-86FD-2DA7-D44D69275254" name="PROJECT_DOCUMENT_STAGES_ML_PROJECT_DOCUMENT_STAGES_FK">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:56:18 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="005BBBF8-CD7E-CC32-F227-7DDBEEC63A95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

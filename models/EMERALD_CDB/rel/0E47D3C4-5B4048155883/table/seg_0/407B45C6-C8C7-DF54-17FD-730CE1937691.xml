@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="407B45C6-C8C7-DF54-17FD-730CE1937691" name="PRODUCTS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>867CE187-696F-A4F6-9898-345AF7798334</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="58EB130F-C1E9-36A9-8185-55888F368B16">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F8CC74C2-1E73-EBDE-D0EE-0E2B551C9A16</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_NAME" id="81DCF01E-352C-599D-101D-E6857EBAF458">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>4067CAA0-9CA6-68F1-7183-B8D97A5A05CC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>47D26CE2-1EB9-61B9-9BC8-3C07C94FEF54</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="243A1028-6BAF-0039-71FF-D7F7B029986E" name="PRODUCTS_PK">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>14869FAC-5AB1-6A38-7DB0-F1644845D9FC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EB130F-C1E9-36A9-8185-55888F368B16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C8EEC29-BAAF-970B-28AB-5222873937D7" name="PRODUCTS_NAME_UK">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F745B4EE-565B-E4B5-4251-47DBD5CC4E2F</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81DCF01E-352C-599D-101D-E6857EBAF458"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

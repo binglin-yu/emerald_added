@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63345FE4-2F37-E976-9B12-39E3DBCED5FC" name="REPRESENTATIVES_ML">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>4A8E2095-109F-72B6-E8F5-87282138F588</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPRESENTATIVE_ID" id="8E3B651A-66EE-0ECE-791D-756EB92D47F7">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>D147D267-AEB3-ACF1-C253-92AE2A0CDB33</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>B7536DB9-1565-D318-1799-97EB099CE25D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9DCB5ED-31D6-F1B7-97B8-96897C69FA3A" referredColumn="B7536DB9-1565-D318-1799-97EB099CE25D"/>
+</associations>
+</Column>
+<Column name="REPRESENTATIVE_NAME" id="A7131B2D-8BA4-53B0-8571-EB84D20079A6">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7CBC0D8D-BF60-3605-DC53-AFECFD1F1479</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>598031DB-0BA2-EF37-C11F-9D1A16ADEDA6</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_TITLE" id="54C5E53C-AD57-9FC3-C9A5-8DABE06742C0">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>98109650-7839-1CBF-F0D8-F8886C2F0CF4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>013EE0DB-9D3B-5103-231D-0B4B6A4F67EC</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_PHONE" id="9DB2E28A-AB73-68A5-ACDE-BDAE49691DF3">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>CD18A27A-E3B6-C6EA-925F-16C3519C38E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68D058C8-B4C6-507A-52EE-F7C543B98377</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_EMAIL" id="B42CA1CB-E2E9-C9F8-050F-806655695D06">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>FBFD8161-6554-1B4C-4769-3AB0CEBEB24A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>1FC59675-0B52-B713-5824-FD45E1D95F6D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_NOTES" id="B36FC4BB-7087-9FC9-68D6-2F3A309E0F52">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>DF8AA100-2B02-C8AD-3D90-FD2BB2FC4586</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>DDA94D27-6F74-C7F6-E933-67BADFA7CDB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_ADDRESS" id="7747C8A2-8028-40AB-914A-EBF363414AFB">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>618CCDEA-5D90-3173-CE63-AE4AC855CBD7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>1C909452-DB4C-53C8-810E-C6E6E0EB0CA2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_FAX" id="D3DC3ECA-1B67-B95A-3CE6-B445F13FD2C7">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>322F8694-DFAE-2D3B-A074-5B9C1901F27B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>7AD643A3-4B53-1BFC-ECF4-96CC0685FDF4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE_ID" id="D0EC1B82-58FA-8F98-341C-7918EBF4544F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>07E396D1-75E7-418C-7327-50571CF36562</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C1C7A83-4433-8303-F9CC-1FE7322FB28F" name="PK_REPRESENTATIVES_ML">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F196B95A-BFF3-FC26-A3B7-E1E9BCE0F7CA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E3B651A-66EE-0ECE-791D-756EB92D47F7"/>
+<colUsage columnID="D0EC1B82-58FA-8F98-341C-7918EBF4544F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6B49C23-417A-753D-A1DB-A4B0757D4F02" name="FK_REPRESENTATIVES_ML_1">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E3B651A-66EE-0ECE-791D-756EB92D47F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

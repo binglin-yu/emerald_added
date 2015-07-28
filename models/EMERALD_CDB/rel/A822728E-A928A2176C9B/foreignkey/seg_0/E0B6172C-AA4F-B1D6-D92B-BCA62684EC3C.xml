@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0B6172C-AA4F-B1D6-D92B-BCA62684EC3C" name="FK_OFFSET_PRICES_PRICE_TYPE_ID">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<containerWithKeyObject>CB03519A-BE71-2084-CA82-F263AA141386</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>3592D979-27CC-D542-05E0-AECC562248A1</localFKIndex>
+<keyObject>A701779B-A83A-394F-83FC-D83BE5CB2D47</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

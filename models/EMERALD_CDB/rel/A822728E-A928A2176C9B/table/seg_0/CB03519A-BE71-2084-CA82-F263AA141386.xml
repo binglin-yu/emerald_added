@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB03519A-BE71-2084-CA82-F263AA141386" name="OFFSET_PRICES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFSET_PRICE_ID" id="5EAC4C34-116B-6698-1956-0D4562566005">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFSET_PRICE_TYPE_ID" id="F21989C7-AC60-98AC-C51D-7922097B4E48">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>A943C12C-9E6B-1DA3-8BCA-87A6C8DA3667</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B6172C-AA4F-B1D6-D92B-BCA62684EC3C" referredColumn="A943C12C-9E6B-1DA3-8BCA-87A6C8DA3667"/>
+</associations>
+</Column>
+<Column name="OFFSET_PRICE_LOW" id="D4FDA0F7-883C-4A5F-9602-7292D314B7F5">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>16CD86A7-B8B7-83E3-686B-CFD544E21080</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFSET_PRICE_HIGH" id="9B2A0167-1C39-8E76-8182-5BBAEE407CD4">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<constraintName>CC_OFFSET_PRICES_HIGH</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>16CD86A7-B8B7-83E3-686B-CFD544E21080</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="offset_price_high&gt;0"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFSET_PRICE_SPOT" id="0C40F780-B66C-C274-F65A-0AFAA2902186">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<constraintName>CC_OFFSET_PRICES_SPOT</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>16CD86A7-B8B7-83E3-686B-CFD544E21080</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="offset_price_spot&gt;0"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFSET_PRICE_PUBLICATION_DATE" id="2F7B7E4E-5357-3842-A68F-4790FF0C849E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFSET_PRICE_IS_PUBLISHED" id="D3909378-6C64-D7E3-435A-D833D1D2C986">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<constraintName>CC_OFFSET_PRICES_IS_PUBLISHED</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1C8ED5F9-61A5-039B-C51A-F9EEECE73E71</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="offset_price_is_published in (0, 1)"/>
+</checkConstraint>
+<defaultValue>1</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFSET_PRICE_UPDATED" id="9038051E-FC2A-035B-117E-BD05243F2B4A">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>5BAAEC99-68DC-46CD-1E47-AB5EC2D25CA9</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBD4F6EE-5419-3794-1B28-4EC3890A0B97" name="PK_OFFSET_PRICES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAC4C34-116B-6698-1956-0D4562566005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F59A80B-AEC4-8D54-BA72-6E7C9D989191" name="UK_OFFSET_PRICES_PUBLICATION">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F21989C7-AC60-98AC-C51D-7922097B4E48"/>
+<colUsage columnID="2F7B7E4E-5357-3842-A68F-4790FF0C849E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3592D979-27CC-D542-05E0-AECC562248A1" name="FK_OFFSET_PRICES_PRICE_TYPE_ID">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F21989C7-AC60-98AC-C51D-7922097B4E48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CC_OFFSET_PRICES_HIGH_LOW" directorySegmentName="seg_0" id="882E17E7-976A-9D6E-5508-699FA219ED27">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<rule>(offset_price_low is not null and offset_price_high is not null) or ((offset_price_low is null and offset_price_high is null))</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CC_OFFSET_PRICES_PRICES_SET" directorySegmentName="seg_0" id="8D3D0376-5BFC-CD2B-52C5-638832A193B3">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<rule>offset_price_spot is not null or offset_price_high is not null or offset_price_low is not null</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CC_OFFSET_PRICES_HIGH_GT_LOW" directorySegmentName="seg_0" id="8C676CF8-1676-5FD2-676E-FE1A7F3FFC23">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<rule>offset_price_high&gt;offset_price_low</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

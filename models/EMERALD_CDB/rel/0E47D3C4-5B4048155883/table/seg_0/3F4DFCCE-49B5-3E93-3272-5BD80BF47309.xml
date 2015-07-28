@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F4DFCCE-49B5-3E93-3272-5BD80BF47309" name="PROJECT_PRICES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>236DE7D1-CCE4-4184-ACAF-553202F221D5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_ID" id="E0737B5E-226D-BD16-9841-C0B5758963E3">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>565802F7-B29E-617A-2E40-4F0A07798F11</importedID>
+<constraintName>NN_PRJ_PR_PROJECT_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>0DC1106F-6E70-48FB-9930-1D60E497F5FD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="878149A1-049C-C5BD-516B-C0CC51C55443" referredColumn="0DC1106F-6E70-48FB-9930-1D60E497F5FD"/>
+</associations>
+</Column>
+<Column name="PRICE_TYPE_ID" id="12E73D91-A9BB-1B7F-69A2-5DA3292A8B42">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>53843689-0604-7A8C-0770-E17D962EA6C9</importedID>
+<constraintName>NN_PRJ_PR_PRICE_TYPE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PRICE_TYPE_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>EEACEBAA-366E-3016-3A69-1E22C40A8D51</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87E8ABF6-AACF-FE90-3111-F6869D24362E" referredColumn="EEACEBAA-366E-3016-3A69-1E22C40A8D51"/>
+</associations>
+</Column>
+<Column name="PRICE_PER_TONNE_LOW" id="7D6BC7DD-01CD-9537-2726-7648F1A7C4FC">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>54E3DEB2-7C55-FED0-30E4-008E6DC48648</importedID>
+<constraintName>CC_PROJECT_PRICES_1</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>16CD86A7-B8B7-83E3-686B-CFD544E21080</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="price_per_tonne_low&gt;0"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE_PER_TONNE_HIGH" id="A0BFD839-0D03-FCE4-730D-EC310452BBA7">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>CA26AF79-46C3-272D-DD06-CDA6BF0B69E4</importedID>
+<constraintName>CC_PROJECT_PRICES_2</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>16CD86A7-B8B7-83E3-686B-CFD544E21080</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="price_per_tonne_high&gt;0"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B466997-E3F5-7948-052C-7C36F2A21AE5" name="PK_PROJECT_PRICES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>E9979FE9-98D9-0727-53F7-5BA54A50E94E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0737B5E-226D-BD16-9841-C0B5758963E3"/>
+<colUsage columnID="12E73D91-A9BB-1B7F-69A2-5DA3292A8B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="980B8A23-77C4-ED9E-E501-39EB5E90E216" name="FK_PRC_TP_PRJ_PR">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12E73D91-A9BB-1B7F-69A2-5DA3292A8B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6580A363-7F73-9169-1827-6739C54A0ADC" name="FK_PRJ_PRJ_PR">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0737B5E-226D-BD16-9841-C0B5758963E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CC_PROJECT_PRICES_3" directorySegmentName="seg_0" id="CCCAF54C-5AF5-DA4D-986B-45FDDDAB3B44">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>873D44B8-7C4B-6D9A-4E28-B42C1A93DE6D</importedID>
+<rule>price_per_tonne_high&gt;=price_per_tonne_low</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_PRJ_PR_PRICE_PER_TONNE_LOW" directorySegmentName="seg_0" id="A8DF8205-E60B-C12D-C5D3-98A0FA52857F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>67D66B29-E217-0997-9F0B-4F4CDF700765</importedID>
+<rule>PRICE_PER_TONNE_LOW IS NOT NULL</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

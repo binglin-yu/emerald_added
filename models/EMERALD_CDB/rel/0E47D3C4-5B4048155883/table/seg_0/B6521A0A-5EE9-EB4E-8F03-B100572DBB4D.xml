@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6521A0A-5EE9-EB4E-8F03-B100572DBB4D" name="PRICE_TYPES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>5C8644C8-78D1-2DD8-EAE4-6AAC04496732</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRICE_TYPE_ID" id="EEACEBAA-366E-3016-3A69-1E22C40A8D51">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>609A6FEE-2B95-0884-D4FA-60BA7E5FD5ED</importedID>
+<constraintName>NN_PRC_TP_PRICE_TYPE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PRICE_TYPE_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE_TYPE_NAME" id="685B1881-4499-1B43-6016-B597C50FC1A3">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2C642BF8-10E2-F127-75F9-95F961C1DE61</importedID>
+<constraintName>NN_PRC_TP_PRICE_TYPE_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PRICE_TYPE_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07CDAFAF-E5A9-ED97-1BD8-6CE3E269B061" name="PK_PRICE_TYPES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>45B101D2-E193-18B6-2CC4-ED0F8D0C9AFE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEACEBAA-366E-3016-3A69-1E22C40A8D51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A36E5F6-956C-9671-3DC6-B271EAEE595A" name="UK_PRICE_TYPES_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>E4B3E935-F8CB-140C-47F6-ECFEA935BDD2</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="685B1881-4499-1B43-6016-B597C50FC1A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

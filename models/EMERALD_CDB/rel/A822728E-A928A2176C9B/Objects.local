@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="32DD6E50-D20F-FB2C-8DF4-61549854AB41" name="USERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3D31FC7C-F07F-3DAB-507F-44BC83D13BC0" name="CAPABILITIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="68C16B30-6B8F-5BB9-40DC-3A4777613396" name="OFFSET_PRICE_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D8CE9B2-D3FF-0547-DD22-69B32E033C45" name="SOURCE_HISTORY" seqName="seg_0"/>
+   <object objectType="Table" objectID="911F280D-9386-77DC-DF5E-D80A548AC60D" name="SETTINGS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AC29B5B4-E5EB-0989-0213-72F26311568C" name="USER_HAS_CAPABILITY" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB03519A-BE71-2084-CA82-F263AA141386" name="OFFSET_PRICES" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC5E9B17-828E-C36D-C064-FAA6C8297301" name="CHANGE_LOG" seqName="seg_0"/>
+   <object objectType="Table" objectID="DD8CEA06-A1C1-0C25-5A55-9D62682D6D8A" name="PROJECT_REDUCTIONS_GEN_YEARS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2B0D96F2-7F8B-6CEF-B468-AD2CF7F3DA0F" name="USER_CAPABILITY_CAPABILITY_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6A79DD80-BC01-C3E9-B37A-D5EABA9EF971" name="USER_CAPABILITY_USER_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BEB84DA1-7EEA-DE15-1E13-1B385BDED814" name="FK_USR_CH_LG" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E0B6172C-AA4F-B1D6-D92B-BCA62684EC3C" name="FK_OFFSET_PRICES_PRICE_TYPE_ID" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

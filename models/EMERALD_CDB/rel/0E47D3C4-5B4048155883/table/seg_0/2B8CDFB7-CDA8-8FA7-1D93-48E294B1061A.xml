@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B8CDFB7-CDA8-8FA7-1D93-48E294B1061A" name="PROJECT_REDUCTION_SOURCES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>FCE8C60E-16D5-2ECF-CE27-A7AF254D5EBC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_REDUCTION_SOURCE_ID" id="B512C717-5630-C4AE-EDD4-52B8A359361F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>624990E1-4309-5922-65ED-22476D3E4CDF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_REDUCTION_SOURCE_NAME" id="7293EDC4-D899-AFFC-572B-7039A4CB2A09">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>4ECE8106-1560-66E8-2290-CCFE52EC3033</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>47D26CE2-1EB9-61B9-9BC8-3C07C94FEF54</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0008A0E5-0ED4-6AB9-AB1D-BD1F3ED26B9C" name="PK_PROJECT_REDUCTION_SOURCES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>5146F0F9-4D09-7C6F-2D2B-E35EE0071709</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B512C717-5630-C4AE-EDD4-52B8A359361F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="114BA8D3-A440-45CA-ADE4-C3480977D451" name="UK_PROJECT_REDUCTION_SRC_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>D4547075-F611-4F86-C290-1A5B17E60C75</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7293EDC4-D899-AFFC-572B-7039A4CB2A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

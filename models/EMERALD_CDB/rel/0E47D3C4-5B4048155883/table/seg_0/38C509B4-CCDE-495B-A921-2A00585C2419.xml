@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38C509B4-CCDE-495B-A921-2A00585C2419" name="PROJECT_HAS_STAGE">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>072D8680-CB1F-6FB5-6938-39385A2ECA13</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D755254A-39C4-7230-35D2-DB569ABACC4D">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>EA2FA684-B812-100F-F16D-7B938D940C46</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DFA79F99-7F75-124A-33BF-2D6F1097D8B4</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_ID" id="A3A63A80-044C-1C54-FCE5-7073EADDD2C5">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>9C951D53-0CF8-A72F-5380-BA48F34DDA13</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>0DC1106F-6E70-48FB-9930-1D60E497F5FD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75BB74E2-1636-36EE-F7CF-78ED4E5FD998" referredColumn="0DC1106F-6E70-48FB-9930-1D60E497F5FD"/>
+</associations>
+</Column>
+<Column name="PROJECT_STAGE_ID" id="87ADEFFD-D60A-E4C4-3EF7-69792F8A16B8">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>C03B464D-7DA9-A3C9-1D1F-E9187B2EF1F3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>DB354F4D-628E-E99C-6257-509D27773F51</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8BC7727-4A22-4800-0F30-2E922E9CE5EF" referredColumn="DB354F4D-628E-E99C-6257-509D27773F51"/>
+</associations>
+</Column>
+<Column name="EFFECTIVE_DATE_FROM" id="8E4D1C87-4A0C-B354-F9FD-35789FCCD96C">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F7737F5D-DD8D-7656-8DAD-315F12BA9096</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EFFECTIVE_DATE_TO" id="681BE20F-D279-F03C-6BA9-83BEAA014B8B">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7EEDE298-9B86-5A62-5061-DECDF8AE2E8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_BY" id="840CA23A-8A68-DBD8-8FEB-775D4928059E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>53976A28-53A4-1483-8EC3-0536C7C755DE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F150730C-36B3-51FF-0038-2D974A93B905</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATE" id="156E48ED-4853-14C4-7207-7F4EADDD389D">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>446C5009-6016-F330-AA9E-245D70A0945A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFY_BY" id="101507D5-F6D3-C18E-947C-0206B0395138">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>BE730649-6057-49D7-F934-B001D6333C12</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F150730C-36B3-51FF-0038-2D974A93B905</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFY_DATE" id="EBDB8D8B-472B-7491-2AF9-442153ABC770">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>A0F0C031-E19E-8559-0ADA-93A5DAE96D88</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFA89753-16D3-0199-694C-7F1DC5E538A7" name="PK_PROJECT_HAS_STAGE">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F7DBAF18-EE19-DB2F-B58B-034DA98F27AB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D755254A-39C4-7230-35D2-DB569ABACC4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="652251F8-2B54-C9F3-0AA8-2B13762760EE" name="FK_PHS_PROJECTS">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A63A80-044C-1C54-FCE5-7073EADDD2C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CB16038-A28A-B785-E6F9-C142CC001279" name="FK_PHS_PROJECT_STAGES">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87ADEFFD-D60A-E4C4-3EF7-69792F8A16B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8EE444B-0129-4B7E-83A2-B40E2757CD6D" name="PROJECT_TYPE_HAS_METHODOLOGY">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>08174684-AB8A-D7DA-D221-E5141C94AC7C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRJ_TYP_METH_ID" id="DB34E862-42FB-066C-A7B3-A535FD0BE24E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>6BDC5242-2135-3200-B432-07638D840D86</importedID>
+<constraintName>NN_PRJ_TP_MTH_PRJ_TYP_METH_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PRJ_TYP_METH_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_TYPE_ID" id="3A1C67D0-A294-D11B-BB34-401A2BBBA0DF">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>D948A9DD-2A18-1FC0-EBB5-A1022ED90B2C</importedID>
+<constraintName>NN_PRJ_TP_MTH_PROJECT_TYPE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_TYPE_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>2055D1C5-F88C-9A1E-1C1D-413E030839B1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FF4A7AE-714C-F20D-F05B-8E70E75ABB21" referredColumn="2055D1C5-F88C-9A1E-1C1D-413E030839B1"/>
+</associations>
+</Column>
+<Column name="METHODOLOGY_ID" id="6443706C-4D8C-D4AF-9E60-483212213AC5">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>21ABC37C-1E5B-1811-F6D2-C38F0F23946D</importedID>
+<constraintName>NN_PRJ_TP_MTH_METHODOLOGY_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="METHODOLOGY_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>4ECD888C-E61F-DD61-3303-402423FD0D88</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3464359A-3B3C-12CF-3F7C-0AFDF767C23B" referredColumn="4ECD888C-E61F-DD61-3303-402423FD0D88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="356522D1-735E-CDA6-0F2A-98A57A299D2C" name="PK_PRJ_TP_MTH">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>21553952-9CF3-4D62-C2B4-4B2ABCD71467</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB34E862-42FB-066C-A7B3-A535FD0BE24E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6680888B-45A8-F226-B937-10B7EAD85C6D" name="TUC_PRJ_TP_MTH_1">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>67AD2E08-FF63-F90B-7380-403EE7DE86AC</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1C67D0-A294-D11B-BB34-401A2BBBA0DF"/>
+<colUsage columnID="6443706C-4D8C-D4AF-9E60-483212213AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB47E40-2903-7251-4495-0A9C83250432" name="FK_MTH_PRJ_TP_MTH">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6443706C-4D8C-D4AF-9E60-483212213AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19963766-67D8-6157-39A3-FBFA48A40529" name="FK_PRJ_TP_PRJ_TP_MTH">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1C67D0-A294-D11B-BB34-401A2BBBA0DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

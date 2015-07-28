@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9180F7B-109A-1E20-F192-98C4E60F8F58" name="PROJECT_TECHNOLOGIES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7292FB13-FBEA-77B6-51E6-81984E1CD07A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_TECHNOLOGY_ID" id="66810D36-26BA-D772-8DC2-49AE8F9E8D6C">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>1F59B911-0B8C-2789-813C-1BD3FD87D3A1</importedID>
+<constraintName>NN_P_T_PROJECT_TECHNOLOGY_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_TECHNOLOGY_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_TECHNOLOGY_NAME" id="B82C64FC-0BF9-86DE-E7E4-7107EFA5B7B3">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>A04BF15C-7487-0D35-AACE-44ACE89B964D</importedID>
+<constraintName>NN_P_T_PROJECT_TECHNOLOGY_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>865DB94C-B92F-51EE-5032-0484F7285F14</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_TECHNOLOGY_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_TECHNOLOGY_DESCRIPTION" id="1F5B9DA4-9E90-F033-821A-CD6E3FB6C636">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>BDD2930D-6BB5-594D-D9E7-74742899A9E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0CCAE81-6BE6-525F-35B4-571ABE647D41</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFA6488E-D3AD-7AAA-8E03-F8EC72806FEE" name="PK_PROJECT_TECHNOLOGIES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>EFF13C74-12C4-B904-7B3C-5124E015EBE9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66810D36-26BA-D772-8DC2-49AE8F9E8D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03B6E8C9-E5AF-5474-C3E1-2E26E1D8A863" name="UK_PROJ_TECHNOLOGIES_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>E8A50BB9-8C08-4AD6-5CDB-F3665B9ABBB0</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B82C64FC-0BF9-86DE-E7E4-7107EFA5B7B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

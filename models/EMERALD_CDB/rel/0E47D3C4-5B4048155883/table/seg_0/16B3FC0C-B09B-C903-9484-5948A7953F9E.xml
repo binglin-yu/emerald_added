@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16B3FC0C-B09B-C903-9484-5948A7953F9E" name="REPRESENTATIVE_ROLES_ML">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>24C45FF4-591D-1F3C-661E-F1FC80A0534B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPRESENTATIVE_ROLE_ID" id="9D94C6E6-5D4B-4B73-8FB5-867A268F6041">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>9FE097E1-AED1-B8DB-556A-387A2C7C2054</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>F72B1A09-96D7-7810-D54B-35A4DD6A9B7B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72E0A05F-EB68-4465-86FD-2C7952CAB189" referredColumn="F72B1A09-96D7-7810-D54B-35A4DD6A9B7B"/>
+</associations>
+</Column>
+<Column name="REPRESENTATIVE_ROLE_NAME" id="A5E1B8F3-DFD1-8B56-BCB9-E0335798B043">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2DD0EC07-F93A-07A3-6EF8-21AA632278D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68D058C8-B4C6-507A-52EE-F7C543B98377</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE_ID" id="0B885F0D-B963-821D-3139-03BBBFBD327D">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>EEDC52C6-3A99-BD0C-4CCE-38476499B371</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02B2408D-133C-6FCD-8883-C35852F2300D" name="PK_REPRESENTATIVE_ROLES_ML">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>055D9DA2-C67D-0014-1FAC-88D7E5C3828C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D94C6E6-5D4B-4B73-8FB5-867A268F6041"/>
+<colUsage columnID="0B885F0D-B963-821D-3139-03BBBFBD327D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4243CFD-6020-5D72-D6D8-874635543D10" name="REPRESENTATIVE_ROLES_ML_UK">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>58469C65-A3F0-9C68-2A7E-16A50C170C53</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E1B8F3-DFD1-8B56-BCB9-E0335798B043"/>
+<colUsage columnID="0B885F0D-B963-821D-3139-03BBBFBD327D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74849531-C45B-468C-91F8-EB50A8CF00A6" name="FK_REPRESENTATIVE_ROLES_ML_1">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D94C6E6-5D4B-4B73-8FB5-867A268F6041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

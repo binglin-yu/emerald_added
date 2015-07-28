@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC187618-A364-2D3F-B59F-960B760BE81D" name="REPRESENTATIVES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>91299247-DB27-0AF3-54D9-836985F0436D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPRESENTATIVE_ID" id="B7536DB9-1565-D318-1799-97EB099CE25D">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>46E8D0E1-F828-2C92-4E72-01815B5C003F</importedID>
+<constraintName>NN_RPR_REPRESENTATIVE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="REPRESENTATIVE_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTNER_ID" id="5A2F3588-1E54-B1F0-3DB6-2742FD028BB9">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>BA902491-CF03-DFF3-E10A-B908171AE44E</importedID>
+<constraintName>NN_RPR_PARTNER_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PARTNER_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>35E25269-2617-8B7F-B04E-964BA7A5DF2F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CFFB3F4-C471-B4DD-197E-CE17D9E8CE5E" referredColumn="35E25269-2617-8B7F-B04E-964BA7A5DF2F"/>
+</associations>
+</Column>
+<Column name="REPRESENTATIVE_NAME" id="F808F18A-36D3-F0CB-97A3-89C00F87E1AD">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2FBBCE0B-DB40-ABFA-8A92-D0C084532BBC</importedID>
+<constraintName>NN_RPR_REPRESENTATIVE_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DEB9E156-E933-A58F-4D6B-61B765E64ABB</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="REPRESENTATIVE_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_TITLE" id="C170EA92-56AA-8192-9E45-36F739FDF266">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>17160C89-E857-63F6-B1CD-79073D36C184</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F7D18D27-4439-EF04-8327-7292909218FF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_PHONE" id="8625AE03-9FE4-9E68-8076-B9856217DA93">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>E151B548-1A69-D2C6-4AA2-DB6544B8EA59</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_EMAIL" id="78E95E2E-2D30-3293-355E-FE44C7BF2271">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>4D7AF653-F035-6EB0-48F8-7E6E115C5676</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F64A846D-3FAD-138A-CD99-3043E2ADFDC7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_NOTES" id="AD76D596-D234-EA95-3B84-A6CDFF0EBDFC">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>FEB6A6D3-759B-1764-69D0-6F753043B219</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C0CCAE81-6BE6-525F-35B4-571ABE647D41</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_CREATED" id="B79C7824-C48D-5207-3114-D373FB746238">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>DF74A676-8BA2-5196-9CC4-D9527FD9034E</importedID>
+<constraintName>NN_RPR_REPRESENTATIVE_CREATED</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="REPRESENTATIVE_CREATED IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_UPDATED" id="F5871910-8E76-DF1E-601A-90B65E23CF8F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>3F98A433-099A-8EC8-1244-1234B19BAECA</importedID>
+<constraintName>NN_RPR_REPRESENTATIVE_UPDATED</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="REPRESENTATIVE_UPDATED IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_ADDRESS" id="AFB9A279-40BA-BFED-996D-A7C0D5EFCFB9">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>63889519-247D-A9E3-95A9-0F344F6A4C18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>604C16FA-ADC3-7BE1-29E2-0DF6772926B1</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_FAX" id="65AE7300-DA6A-938B-D7D4-762D03D10E18">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>FBE0D9EF-65D4-1111-4846-7ED478AAE26E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>865DB94C-B92F-51EE-5032-0484F7285F14</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIBILITY_ID" id="4E293D2B-3CD1-4E22-F4D9-D321ABC6881F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>FD1D7C05-F063-9B30-EE6A-7DB1DB75CE79</importedID>
+<constraintName>NN_RPR_VISIBILITY_ID</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="VISIBILITY_ID is not null"/>
+</checkConstraint>
+<delegate>593FA11B-87B8-F035-222C-B85DF2E7C6F3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAF4262A-30DC-07CC-51EE-388278312B6E" referredColumn="593FA11B-87B8-F035-222C-B85DF2E7C6F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED798DD7-DC36-175E-0F2B-A0265CCD13E1" name="PK_REPRESENTATIVES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>CB0862D9-F809-CA6E-D501-9C542A2AF447</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7536DB9-1565-D318-1799-97EB099CE25D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65FBA444-366E-E39C-453C-E5AED5C50FC7" name="FK_PRT_RPR">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A2F3588-1E54-B1F0-3DB6-2742FD028BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="575E5719-C260-1C51-EA00-FAD46163C81D" name="FK_RPR_VISIBILITIES">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E293D2B-3CD1-4E22-F4D9-D321ABC6881F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD2AC58F-BC15-49DE-B28B-C02A3C9DC928" name="STANDARD_HAS_VERIFIER">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>91B9DCF8-AC2A-F92F-8315-1A3778DDD83A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STANDARD_VERIFIER_ID" id="C7951557-55AE-DABE-A1D5-EF568F0DDCA2">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>40C57403-1F8F-AB8D-FFE4-CA610CF6CC87</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STANDARD_ID" id="E09365AD-4224-8869-F41C-51A51FB049D7">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>5537711B-104C-21B0-8BFD-52E9926B3870</importedID>
+<constraintName>NN_STNDRT_HAS_VRFR_STANDARD_ID</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="standard_id is NOT NULL"/>
+</checkConstraint>
+<delegate>EF2B6D09-8E21-F529-FAD1-E63C1A98DCF3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61699C9A-3B98-AA87-6A43-31B80E7BE627" referredColumn="EF2B6D09-8E21-F529-FAD1-E63C1A98DCF3"/>
+</associations>
+</Column>
+<Column name="VERIFIER_ID" id="9591C644-095F-F677-F177-D760534D34DA">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2B609F64-4002-9240-0BC0-1AE930C997D7</importedID>
+<constraintName>NN_STNDRT_HAS_VRFR_VERIFIER_ID</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="verifier_id is NOT NULL"/>
+</checkConstraint>
+<delegate>35E25269-2617-8B7F-B04E-964BA7A5DF2F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70D4F109-6287-2305-338F-E67595733E22" referredColumn="35E25269-2617-8B7F-B04E-964BA7A5DF2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FFDCE43-D0D2-6E30-96C5-ACBC20D7B09E" name="PK_STANDARD_HAS_VERIFIER">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>1E6186E6-1575-2810-05F5-BF30B438EAAB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7951557-55AE-DABE-A1D5-EF568F0DDCA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB24DDAA-A4D8-287D-C857-0B4C8718016F" name="UK_STANDARD_ID_VERIFIER_ID">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>66E1988A-092F-A231-98A1-70230728D10D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E09365AD-4224-8869-F41C-51A51FB049D7"/>
+<colUsage columnID="9591C644-095F-F677-F177-D760534D34DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5FB08AB-C145-6A68-6AC0-17094AC94CBB" name="FK_STNDRT_HAS_VRFR_STANDARD">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E09365AD-4224-8869-F41C-51A51FB049D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8767C6EE-8E73-220C-B60F-797AE6018F6A" name="FK_STNDRT_HAS_VRFR_VERIFIERS">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9591C644-095F-F677-F177-D760534D34DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

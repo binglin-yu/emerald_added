@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="trg_market_types_biur" directorySegmentName="seg_0" id="5B9E8A23-3C81-6EB7-D776-AC5B7587F2CD">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>BEGIN&lt;br&gt;  IF inserting THEN&lt;br&gt;    :NEW.MARKET_TYPE_ID := market_types_seq.NEXTVAL;&lt;br&gt;  END IF;&lt;br&gt;  NULL;&lt;br&gt;END trg_market_types_biur;</body>
+<triggerTime>BEFORE</triggerTime>
+<table>C0B6381D-8BD0-14F7-4F27-F7FA8AFF6058</table>
+</TriggerOraclev10g>

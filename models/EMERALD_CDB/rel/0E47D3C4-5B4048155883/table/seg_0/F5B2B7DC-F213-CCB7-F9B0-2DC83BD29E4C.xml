@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5B2B7DC-F213-CCB7-F9B0-2DC83BD29E4C" name="PROJECT_TYPES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>D347ECC1-300C-B023-B782-032AE693FF15</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_TYPE_ID" id="2055D1C5-F88C-9A1E-1C1D-413E030839B1">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>1DC1BE31-B0CA-7E9D-BFEF-1E89F0C43634</importedID>
+<constraintName>NN_PRJ_TP_PROJECT_TYPE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_TYPE_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_PARENT_TYPE_ID" id="0D114458-73FE-07D9-BE9A-0F411B372B5B">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>D659207B-236C-FABF-548B-AD930299EC20</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>2055D1C5-F88C-9A1E-1C1D-413E030839B1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F1642A3-FDFF-5125-4E29-2EFF85A278B0" referredColumn="2055D1C5-F88C-9A1E-1C1D-413E030839B1"/>
+</associations>
+</Column>
+<Column name="PROJECT_TYPE_NAME" id="26D682C7-A8E8-3FDA-AD9C-F316186D5115">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F5FF43DB-7080-A348-7790-A73619324A9C</importedID>
+<constraintName>NN_PRJ_TP_PROJECT_TYPE_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_TYPE_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A728B6A3-57E6-3D85-9A74-81FBB1959089" name="PK_PROJECT_TYPES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>6FEA8F90-1C21-6E1D-6DC7-129757F3E641</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2055D1C5-F88C-9A1E-1C1D-413E030839B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7150D6D7-87BB-1925-67AB-5AD60A77E405" name="FK_PRJ_TP_PRJ_TP">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D114458-73FE-07D9-BE9A-0F411B372B5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CC_PROJECT_TYPES_1" directorySegmentName="seg_0" id="C2660290-CB86-951A-4733-D6F7BDE2EB18">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7AB6347C-6BCD-8F23-3BE1-EA55F3DF86BD</importedID>
+<rule>project_type_id&lt;&gt;project_parent_type_id</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

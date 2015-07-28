@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FCEE850-93C8-1A9D-7B7C-63096CE21EA9" name="MARKETS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F56EFE5D-25B5-EE6A-DF6A-B97515D7982B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MARKET_ID" id="F3884E7E-3BBE-1DCA-AC30-8720A14472F6">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>9DE27558-E5C5-7A61-32F0-B9DD57ADC59A</importedID>
+<constraintName>NN_MRK_MARKET_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="MARKET_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARKET_NAME" id="323E7597-5DA0-838A-A6AF-AE111572B9FD">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>42757338-681D-4A76-4B8E-2BA31E50EE4E</importedID>
+<constraintName>NN_MRK_MARKET_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F64A846D-3FAD-138A-CD99-3043E2ADFDC7</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="MARKET_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARKET_TYPE_ID" id="C0809D56-0684-FB56-1038-7B8ED5148ABD">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>103F0599-2897-A032-75CC-A18F33E4EA18</importedID>
+<constraintName>NN_MRK_MARKET_TYPE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="MARKET_TYPE_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>EB8B2EC9-ABA5-8145-F77B-52680E907D8B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE77EDBF-E34F-7268-1574-8B4B8C7371A1" referredColumn="EB8B2EC9-ABA5-8145-F77B-52680E907D8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90B7B9AA-CBCC-023E-7083-3B0E5D714D7A" name="PK_MARKETS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>BAD73B02-4FF7-546C-08FB-B7393B40120B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3884E7E-3BBE-1DCA-AC30-8720A14472F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB3277D3-EFC5-40F1-A998-DE686E46CB46" name="UK_MARKETS_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>B510BBE4-16EE-355C-245A-DB1997E2C86E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323E7597-5DA0-838A-A6AF-AE111572B9FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B36077F-F564-4A08-4442-639175D47028" name="FK_MRK_T_MRK">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0809D56-0684-FB56-1038-7B8ED5148ABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F7FA095-AAFB-B4AB-5D2F-E1C9B8BB9736" name="PARTNER_SPATIAL_METADATA">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>C225AF51-0A9E-5B0A-9600-28CA7093244F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARTNER_ID" id="CB93D31D-7808-A374-72EF-87D71FD4CE78">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>39E811F9-96BD-AFFC-44B5-2E865018817B</importedID>
+<constraintName>NN_PRT_SPT_METADATA_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PARTNER_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>35E25269-2617-8B7F-B04E-964BA7A5DF2F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F873D0E1-2A48-4429-0088-5AA38BDD5A79" referredColumn="35E25269-2617-8B7F-B04E-964BA7A5DF2F"/>
+</associations>
+</Column>
+<Column name="PARTNER_GEOM" id="F526983D-59E0-80EA-6259-5264CFC4EBFC">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2D147FB9-F8E4-BD44-C1FE-35607C796BB5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PARTNER_GEOM IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27AB2119-1732-309F-8BF6-AE256B8D5D29" name="PK_PARTNER_SPATIAL_METADATA">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7D8D066F-D86D-6905-60CB-668A72DB66A9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB93D31D-7808-A374-72EF-87D71FD4CE78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B54D49E1-A34B-0C9B-B2A0-A1C90F1C7457" name="FK_PART_SPAT_METADATA">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB93D31D-7808-A374-72EF-87D71FD4CE78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NULL SET GENERATED_236" directorySegmentName="seg_0" id="CB971798-B7EE-2540-17F6-FACA9BACDE94">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>311A5E05-1516-3679-579A-430AB0041D23</importedID>
+<rule>PARTNER_GEOM IS NOT NULL</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

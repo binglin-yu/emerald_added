@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="FE232F4E-BB59-1BE9-D78C-AE1690419FFA">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:02:16 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

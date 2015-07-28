@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="332FE61E-CB42-9D66-72D5-A7A6CA093100" name="REPRESENTATIVE_ROLES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>8D96C274-4B57-4104-DA5C-B51CF69991C4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPRESENTATIVE_ROLE_ID" id="F72B1A09-96D7-7810-D54B-35A4DD6A9B7B">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>204C46D8-7C4E-16EE-7B4F-9E1F71D518C2</importedID>
+<constraintName>NN_RR_REPRESENTATIVE_ROLE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="REPRESENTATIVE_ROLE_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRESENTATIVE_ROLE_NAME" id="23AA2F04-0235-5A1D-C592-5A1F62D1FB7C">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>A4708F18-B43A-7116-4D72-C1F9CEE9E53D</importedID>
+<constraintName>NN_RR_REPRESENTATIVE_ROLE_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="REPRESENTATIVE_ROLE_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C96AE31-E03A-F66D-5106-6250E01E2C09" name="PK_REPRESENTATIVE_ROLES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>9CD43909-9DEB-9C55-E5CF-29F9A5003063</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F72B1A09-96D7-7810-D54B-35A4DD6A9B7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5EA0A04-692B-885C-DEBC-778B0C55A586" name="UK_REPR_ROLES_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>341CAF54-0A24-5FBE-423D-7C5834B33552</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23AA2F04-0235-5A1D-C592-5A1F62D1FB7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

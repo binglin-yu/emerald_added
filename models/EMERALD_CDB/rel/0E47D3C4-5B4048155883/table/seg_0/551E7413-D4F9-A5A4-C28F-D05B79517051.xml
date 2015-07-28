@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="551E7413-D4F9-A5A4-C28F-D05B79517051" name="METHODOLOGIES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>ADCC03DE-73CC-628F-A338-C6AAB1E31009</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="METHODOLOGY_ID" id="4ECD888C-E61F-DD61-3303-402423FD0D88">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>02F6B351-5F1D-8310-457A-5ED411EF4C85</importedID>
+<constraintName>NN_MTH_METHODOLOGY_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="METHODOLOGY_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHODOLOGY_NAME" id="816A3674-1FA6-E83A-2866-22C3B99BF779">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>FA1A3313-C329-D791-3445-4C20C29B0C81</importedID>
+<constraintName>NN_MTH_METHODOLOGY_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>058D0A92-D541-FC8D-7145-80FAE8F5E57D</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="METHODOLOGY_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHODOLOGY_DESCRIPTION" id="0E19F1CA-49A8-46D0-D1D9-C92C0A7DB4E2">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>66C62A55-4A14-9E16-C777-D829E7C6F45D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A6CADCF1-40BB-92A6-6735-73BC0FF7198D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHODOLOGY_CREATED" id="FB834F85-E3D3-96AE-BEA0-786BA165A903">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>EC8F1C87-C05F-880C-5645-5892B3B70CE1</importedID>
+<constraintName>NN_MTH_METHODOLOGY_CREATED</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="METHODOLOGY_CREATED IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHODOLOGY_UPDATED" id="B6DC7ABB-A35E-6603-5B82-CE1C1DF47A8F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F83271F2-E4F2-3040-BCBA-5339DF97D58A</importedID>
+<constraintName>NN_MTH_METHODOLOGY_UPDATED</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="METHODOLOGY_UPDATED IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHODOLOGY_SOURCE" id="DC3C92D0-835C-F908-03DE-1DBF492A49CE">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>1479CEBF-D8B7-F56A-284E-E32CAF51FFED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>316D2A6F-A8E3-959C-BD60-2342B0C3B2ED</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9DCE653-F5EF-365B-C5E2-15DE4D7888EE" name="PK_METHODOLOGIES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>A858D4DB-834A-0863-E5D2-2FC272618556</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ECD888C-E61F-DD61-3303-402423FD0D88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E267A18-89CE-3663-C2E2-78D78296D9C4" name="UK_METHODOLOGY_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>BA6B8E8F-F62E-2CE9-A7AD-F5D65869827D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="816A3674-1FA6-E83A-2866-22C3B99BF779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

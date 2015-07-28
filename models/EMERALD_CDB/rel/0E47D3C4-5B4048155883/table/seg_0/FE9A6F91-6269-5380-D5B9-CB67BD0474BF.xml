@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE9A6F91-6269-5380-D5B9-CB67BD0474BF" name="PROJECT_REDUCTIONS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>767E090D-7001-3356-E1A4-07BDBD31F9C4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_ID" id="09786E77-32EC-E631-DF5C-B69922340D43">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>59C267CF-468D-F92B-6186-30D8A583CAE4</importedID>
+<constraintName>NN_RDCT_PROJECT_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>0DC1106F-6E70-48FB-9930-1D60E497F5FD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E63ADBE-0D50-C273-4672-2E2C6CF0E4CA" referredColumn="0DC1106F-6E70-48FB-9930-1D60E497F5FD"/>
+</associations>
+</Column>
+<Column name="PROJECT_REDUCTION_YEAR" id="09228AD6-4A90-61B7-E451-7F4EC773A6E0">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>0F86917E-CA20-FE0D-6B31-EC74D0B67D88</importedID>
+<constraintName>NN_PRJ_RDCT_REDUCTION_YEAR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PROJECT_REDUCTION_YEAR IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_REDUCTION_VOLUME" id="794F6076-CF22-B5FD-9C57-16D95F2681A0">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>6CFF94A7-CEA0-5823-BEE9-C6CF896DF449</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_POWER_GENERATION" id="C5E316AB-5786-3C9C-C030-F91AB6DFBADD">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>D79AAF64-5F00-61F1-01C4-026A0F65491A</importedID>
+<constraintName>CC_PRO_POWER_GENERATION</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="project_power_generation&gt;=0"/>
+</checkConstraint>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_REDUCTION_SOURCE_ID" id="355842AE-1020-1EC4-9911-02630148C032">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2A5A711D-AA7A-8A34-0EBC-DB668B6EA68C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>B512C717-5630-C4AE-EDD4-52B8A359361F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30F4A1E0-263F-481F-F44A-429F151404BA" referredColumn="B512C717-5630-C4AE-EDD4-52B8A359361F"/>
+</associations>
+</Column>
+<Column name="PROJECT_ISSUED_VOLUME" id="E7884A5B-FB96-8D70-C73B-DC17613DB4A1">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>128ED541-DD96-9643-1D5C-21B56D09BCAE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_RETIRED_VOLUME" id="A82A6C2D-4DE8-F756-B0F4-FE3CF8EE9F7E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>098F4BA9-DBFD-D63F-C6E9-58BFF16F06C2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_MONITORED_VOLUME" id="0B24E562-2EE5-A3C8-B39D-98AEED5F00C7">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-07-23 06:32:22 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIOD_START" id="8465791E-6762-AC5C-58B5-2E7E475773D2">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>C0E14FB9-6FD9-90CD-4FE5-212B875057EB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIOD_END" id="1EEF81D0-379A-F2FC-79A7-994837C557C3">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>A855F314-9A4E-3BBE-F1C5-C52D8BA3A640</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C6374D3C-52CD-50F6-D534-2EF77F83C56A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C815EFA-6EAF-6F00-5086-4E5E73F34404" name="PK_PROJECT_REDUCTIONS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2F7F8EF2-8CEE-B636-3962-0A8E8BE93EB6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09786E77-32EC-E631-DF5C-B69922340D43"/>
+<colUsage columnID="09228AD6-4A90-61B7-E451-7F4EC773A6E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DAAD481-F630-3A40-0247-CEF7E25E493C" name="FK_PRJ_PRJ_RDCT">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09786E77-32EC-E631-DF5C-B69922340D43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D34D62-5360-F159-1835-9D8D5C8470B6" name="FK_PRJ_RDCT_PRJ_RDCT_SOURCES">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="355842AE-1020-1EC4-9911-02630148C032"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_PRJ_RDCT_REDUCTION_VLM_PWR" directorySegmentName="seg_0" id="844D0584-39F9-DDB4-325F-B65221ECA48E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>189B53C3-82A7-EABA-F59E-9B6AD7FBDDE8</importedID>
+<rule>project_reduction_volume is not null or project_power_generation is not null</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

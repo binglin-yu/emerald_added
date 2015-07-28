@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC29B5B4-E5EB-0989-0213-72F26311568C" name="USER_HAS_CAPABILITY">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_CAPABILITY_ID" id="47A465A1-B37D-0C4C-4E7B-9CF78D758A20">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="6AC92C29-F33A-A9FF-6BCF-37FABBC658CF">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>0BBDF35F-D4A9-B1FC-2EFF-DCE1F6218472</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A79DD80-BC01-C3E9-B37A-D5EABA9EF971" referredColumn="0BBDF35F-D4A9-B1FC-2EFF-DCE1F6218472"/>
+</associations>
+</Column>
+<Column name="CAPABILITY_ID" id="5753C068-2204-DB89-74CC-B0548C40CBEF">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>BCFC221C-4317-D143-229B-916EA333DEBD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B0D96F2-7F8B-6CEF-B468-AD2CF7F3DA0F" referredColumn="BCFC221C-4317-D143-229B-916EA333DEBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ADB3BCA-E6BC-BE9D-9D02-900BF05CE158" name="USER_CAPABILITY_PK">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A465A1-B37D-0C4C-4E7B-9CF78D758A20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E8ECA85-F136-5512-02E2-FF2C5E2BFB35" name="USER_CAPABILITY_CAPABILITY_FK">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5753C068-2204-DB89-74CC-B0548C40CBEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54DCF325-6EA2-DE10-31A4-155F56163AAB" name="USER_CAPABILITY_USER_FK">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:49:54 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC92C29-F33A-A9FF-6BCF-37FABBC658CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

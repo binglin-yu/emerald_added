@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6B2BC47-9FAE-B9CE-5F85-EADE6E057BD5" name="COUNTRIES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>82713FC2-94EB-C690-DE5E-55332AD2CF3F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="AA7C4009-EDE5-E503-05B9-933FD773B997">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>E8F156D5-7544-1BA7-5D88-F6B2CA7A4CB5</importedID>
+<constraintName>NN_CNTR_COUNTRY_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>ACA7D212-912D-D569-2C87-CBF7B4E752C5</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="COUNTRY_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME" id="60B21134-378D-9988-351F-3E98B5E33D9C">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7C9095DF-BB7C-2429-AEEA-B594DDF33CE6</importedID>
+<constraintName>NN_CNTR_COUNTRY_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>336844FC-7D37-71B4-0620-BC7AE0E1AB03</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="COUNTRY_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ISO2_CODE" id="3F64AAA3-0AC3-683F-9CD1-6F4E21E4379E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>F750AC6F-F7FC-8B7D-AAB4-C366A2BE12C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53D7D6B6-2D67-2CFE-B93F-6BCD8C4342F7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTINENT_ID" id="66F7F59E-2D90-E9C8-C233-7B88DCC996FD">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>2754F63E-8036-7D98-099F-7DD27A722202</importedID>
+<constraintName>NN_CNTR_CONTINENT_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="CONTINENT_ID IS NOT NULL"/>
+</checkConstraint>
+<delegate>E19541BF-68AE-4510-9BA6-78767E107572</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="801E049D-08E3-7718-7B25-D25E0F721DA2" referredColumn="E19541BF-68AE-4510-9BA6-78767E107572"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AC641AA-7032-B9AD-E607-925336F38D62" name="PK_COUNTRIES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>00C27640-051F-8373-1896-1ACC240F77BD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA7C4009-EDE5-E503-05B9-933FD773B997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1BFF6B7-4A15-4C17-E4F1-F5E455554E6A" name="UK_COUNTRIES_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>325FA616-40C4-1F9B-939B-693981B0CCF4</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B21134-378D-9988-351F-3E98B5E33D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF0702D9-4575-3C6A-F5C2-FA9593DAE3DB" name="FK_CNT_CNTR">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66F7F59E-2D90-E9C8-C233-7B88DCC996FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

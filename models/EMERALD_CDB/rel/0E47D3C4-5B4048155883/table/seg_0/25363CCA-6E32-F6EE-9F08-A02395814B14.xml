@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25363CCA-6E32-F6EE-9F08-A02395814B14" name="STATES_ML">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>87E6DF1E-F452-C7F6-B5A2-8E2DA7C78523</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATE_ID" id="0A8EBF1A-0290-65E6-88C7-7421C9CA0F22">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>6B99831A-425D-C7A2-2F7B-42D080FC2624</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53D7D6B6-2D67-2CFE-B93F-6BCD8C4342F7</domain>
+<delegate>6C2FB3D8-8432-97B1-820B-18911CC298DB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6448292-6B83-6318-30E3-2D7DCF635B52" referredColumn="6C2FB3D8-8432-97B1-820B-18911CC298DB"/>
+</associations>
+</Column>
+<Column name="STATE_NAME" id="680D569A-B1D3-2F20-8AF3-ABF57460510C">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>CB7D2E9E-43B3-7D10-12A7-8722A2675622</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>1FC59675-0B52-B713-5824-FD45E1D95F6D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_CAPITAL" id="21AE1D33-A60C-CAFF-CC03-2E69DC9BBEE6">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>22FD2608-97B3-DF9C-A265-BB227C8E475E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>1FC59675-0B52-B713-5824-FD45E1D95F6D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE_ID" id="E8D47B9C-F473-530A-9B39-71CBF78C683F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>20D418E2-E4A4-3316-8C93-2508CF652F3C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFF0E4BF-8B79-D666-EBF7-189922B28D2E" name="PK_STATES_ML">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>0BAF5D6B-BDD4-DE8C-302F-2C5BE7D27304</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A8EBF1A-0290-65E6-88C7-7421C9CA0F22"/>
+<colUsage columnID="E8D47B9C-F473-530A-9B39-71CBF78C683F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77B0A7FD-3D6A-46C3-FBAF-59D8AC4BD194" name="STATES_ML_UK">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>EB1A6B13-444E-8CE7-0C08-05DC6BA0B022</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="680D569A-B1D3-2F20-8AF3-ABF57460510C"/>
+<colUsage columnID="E8D47B9C-F473-530A-9B39-71CBF78C683F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F7BB8F8-22F9-60EC-3DED-D800CAE26023" name="FK_STATES_ML_1">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A8EBF1A-0290-65E6-88C7-7421C9CA0F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

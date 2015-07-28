@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A390C6D0-AB99-8472-999C-7ACDF7FC951E" name="FK_PRJ_SPAT_METADATA">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>7159F0B7-806E-B42C-944E-C629B78B0506</importedID>
+<containerWithKeyObject>D7D74321-776F-CDF1-5129-B27E94F701E4</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>6311E128-AC84-B242-95A4-61BF19D85372</localFKIndex>
+<keyObject>3E6E7654-5C3D-8E15-362B-C78F097E3A84</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

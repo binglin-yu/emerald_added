@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1896F2E-F9F6-AD4A-BA1D-C68C07BA88E6" name="METHODOLOGY_IDENTIFIERS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>62ACE1F8-37B4-30D7-3629-C404D19886F6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="METHODOLOGY_ID" id="11ED55F2-6E96-88A8-D499-375068D7ED9E">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>8C208BB9-D896-7224-D705-C2541627CC95</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2AA76D20-B526-59E6-BD29-F0FF30334573</domain>
+<delegate>4ECD888C-E61F-DD61-3303-402423FD0D88</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38243B23-27F8-8A9A-0B59-641A60DE5931" referredColumn="4ECD888C-E61F-DD61-3303-402423FD0D88"/>
+</associations>
+</Column>
+<Column name="IDENTIFIER_NAME" id="747372AF-8A70-F41B-3519-C74E73F48DC0">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>C66746AF-5478-2EBC-7FE9-AA35B193F0EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F150730C-36B3-51FF-0038-2D974A93B905</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALUE" id="AE22F2D1-19C0-668A-BD42-4E3EA5437C28">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>B08A6339-D217-C963-F0FE-512058CCDD7D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F7D18D27-4439-EF04-8327-7292909218FF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E42AFE1-42D7-E2A5-3C2D-29567CC289A5" name="PK_METHODOLOGY_IDENTIFIERS">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>4E601FFE-D2BF-DC67-0015-158F337513A5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11ED55F2-6E96-88A8-D499-375068D7ED9E"/>
+<colUsage columnID="747372AF-8A70-F41B-3519-C74E73F48DC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA0517C9-6F15-E971-60D9-C777BF9A5069" name="FK_MID_METHODOLOGIES">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11ED55F2-6E96-88A8-D499-375068D7ED9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

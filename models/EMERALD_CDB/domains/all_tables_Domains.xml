@@ -1,0 +1,442 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="all_tables_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_100" id="013EE0DB-9D3B-5103-231D-0B4B6A4F67EC">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000" id="03D79296-4877-910E-B07E-9F82DA79ECC7">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4000</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_400" id="058D0A92-D541-FC8D-7145-80FAE8F5E57D">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>400</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1" id="0A0C7386-64B0-BA2D-484F-70F5F5207C03">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="10E38E79-A139-2F23-2C60-054AA0A24278">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="16CD86A7-B8B7-83E3-686B-CFD544E21080">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="1C8ED5F9-61A5-039B-C51A-F9EEECE73E71">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>1</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_300" id="1C909452-DB4C-53C8-810E-C6E6E0EB0CA2">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>300</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_60" id="1FC59675-0B52-B713-5824-FD45E1D95F6D">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>60</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="2AA76D20-B526-59E6-BD29-F0FF30334573">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="316D2A6F-A8E3-959C-BD60-2342B0C3B2ED">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>500</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40" id="336844FC-7D37-71B4-0620-BC7AE0E1AB03">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>40</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_500" id="384D4B49-C494-09B0-D8CD-96D9CB046D3F">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>500</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="FLOAT_126_0_0" id="3A672680-F865-FCAD-6DC6-A1636C79251D">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>126</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT021</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_32" id="47D26CE2-1EB9-61B9-9BC8-3C07C94FEF54">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>32</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_2" id="53D7D6B6-2D67-2CFE-B93F-6BCD8C4342F7">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_200" id="598031DB-0BA2-EF37-C11F-9D1A16ADEDA6">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>200</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_6_0_0" id="5BAAEC99-68DC-46CD-1E47-AB5EC2D25CA9">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>6</dataTypePrecision>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_300" id="604C16FA-ADC3-7BE1-29E2-0DF6772926B1">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>300</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_400" id="62CFCF5C-A0B2-FA16-24D8-C7437192B874">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>400</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_40" id="68D058C8-B4C6-507A-52EE-F7C543B98377">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>40</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOB_0_0_0" id="78E5308D-4C54-55BE-5836-EDFEBF21F594">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_80" id="7AD643A3-4B53-1BFC-ECF4-96CC0685FDF4">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>80</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_80" id="865DB94C-B92F-51EE-5032-0484F7285F14">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>80</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CLOB_0_0_0" id="9B711C0A-0162-72C3-EFAC-0EDF1B2EAA52">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT028</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_12" id="A3B3409F-C96C-804D-9E6A-A65025451316">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>12</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2003" id="A6CADCF1-40BB-92A6-6735-73BC0FF7198D">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2003</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_3" id="ACA7D212-912D-D569-2C87-CBF7B4E752C5">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>3</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1000" id="BD0F2AB2-B4A9-19E2-1B31-8DD529FABF7A">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1000</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2000" id="C0CCAE81-6BE6-525F-35B4-571ABE647D41">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2000</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="C6374D3C-52CD-50F6-D534-2EF77F83C56A">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="D07E394E-8444-1729-38A5-998A1C6F86FE">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>25</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_2000" id="DDA94D27-6F74-C7F6-E933-67BADFA7CDB7">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2000</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="DEB9E156-E933-A58F-4D6B-61B765E64ABB">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>200</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_38_0_0" id="DFA79F99-7F75-124A-33BF-2D6F1097D8B4">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>38</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NVARCHAR_0_0_1000" id="E408CAC5-6358-B4E8-33F6-0C0FC1E69290">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1000</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_120" id="EB71B78C-B0AF-3693-5FC7-8D5F8A0CFBE3">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>120</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="F150730C-36B3-51FF-0038-2D974A93B905">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>30</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="F26E5E3C-1956-01E8-807C-347D9EA16084">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="F64A846D-3FAD-138A-CD99-3043E2ADFDC7">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>60</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="F7D18D27-4439-EF04-8327-7292909218FF">
+         <createdBy>U8015921</createdBy>
+         <createdTime>2015-06-08 05:23:31 UTC</createdTime>
+         <ownerDesignName>EMERALD_CDB</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>all_tables_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

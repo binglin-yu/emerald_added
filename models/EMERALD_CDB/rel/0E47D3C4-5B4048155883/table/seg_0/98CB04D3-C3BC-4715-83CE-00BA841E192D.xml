@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98CB04D3-C3BC-4715-83CE-00BA841E192D" name="PROJECT_DOCUMENT_STAGES">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:54:48 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_DOCUMENT_STAGE_ID" id="6A62D315-A6B5-05ED-94D6-15FEC8402DF9">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:54:48 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAGE_NAME" id="496E7B73-AFA2-AB34-F3F2-F687D1836D6A">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:54:48 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAGE_DESCIPTION" id="1600E9A5-51F7-9B6D-35F5-1CBF47BAD1AA">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:54:48 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4BD6D0C-B3E9-F9B6-24AD-8310D0282CDC" name="PROJECT_DOCUMENT_STAGES_PK">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-09 07:55:51 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A62D315-A6B5-05ED-94D6-15FEC8402DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

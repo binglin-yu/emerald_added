@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="trg_continents_biur" directorySegmentName="seg_0" id="4782CA66-A06E-0EED-B40D-92ACA01D9B1C">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>BEGIN&lt;br&gt;  IF inserting THEN&lt;br&gt;    :NEW.CONTINENT_ID := continents_seq.NEXTVAL;&lt;br&gt;  END IF;&lt;br&gt;  NULL;&lt;br&gt;END trg_continents_biur;</body>
+<triggerTime>BEFORE</triggerTime>
+<table>D7E4F29D-6576-35D0-98F4-18E3324BF098</table>
+</TriggerOraclev10g>

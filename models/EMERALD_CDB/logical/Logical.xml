@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A898D9F6-B126-FFB0-2C59-FF89F66198DD" mainViewID="679E7871-B6D9-980B-F0A3-D25EC2B9724C">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:02:16 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

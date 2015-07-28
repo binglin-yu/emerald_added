@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EED41133-0EAB-CB3C-D0D4-1E9FFEF58FCD" name="STATES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>033F115A-8FC1-B3F9-E766-B290B9D14578</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATE_ID" id="6C2FB3D8-8432-97B1-820B-18911CC298DB">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>0BA1E044-6950-9569-1560-F2B25D27C3FC</importedID>
+<constraintName>NN_STT_STATE_ID</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53D7D6B6-2D67-2CFE-B93F-6BCD8C4342F7</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="STATE_ID IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_NAME" id="CCE05CEF-62E1-4E41-D880-276F7D565FCC">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>0D767472-86FC-3241-FAE7-4222903AB71A</importedID>
+<constraintName>NN_STT_STATE_NAME</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F64A846D-3FAD-138A-CD99-3043E2ADFDC7</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="STATE_NAME IS NOT NULL"/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_CAPITAL" id="2570ED69-5677-9639-2127-78E2B831FAD7">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>AD571FD3-DFB9-8250-C353-524FD15AEBE8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F64A846D-3FAD-138A-CD99-3043E2ADFDC7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81998FC0-A8A7-D1F3-477B-159D21EF9BA1" name="PK_STATES">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>B73856D2-AD7D-6892-F689-80912883D744</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C2FB3D8-8432-97B1-820B-18911CC298DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B524DB4C-6DEA-2E84-7AD0-9A49FABB917F" name="UK_STATES_NAME">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:31 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<importedID>38628FF9-9495-4230-A4E0-E782A9ECCADE</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCE05CEF-62E1-4E41-D880-276F7D565FCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

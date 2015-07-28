@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="trg_project_categories_biur" directorySegmentName="seg_0" id="AF490728-A797-3BC4-EAD0-4D1F0AF3D47F">
+<sourceDDLFile>all_tables.sql</sourceDDLFile>
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:23:32 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>BEGIN&lt;br&gt;  IF inserting THEN&lt;br&gt;    :NEW.project_category_id := project_categories_seq.NEXTVAL;&lt;br&gt;  END IF;&lt;br&gt;  NULL;&lt;br&gt;END trg_project_categories_biur;</body>
+<triggerTime>BEFORE</triggerTime>
+<table>B9285A48-B927-ABB9-9D48-49FA018B6FAD</table>
+</TriggerOraclev10g>

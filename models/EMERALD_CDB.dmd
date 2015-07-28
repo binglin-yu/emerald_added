@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EMERALD_CDB" id="434FB104-BE1C-D342-86CA-61744AB20B77" version="3.5">
+<createdBy>U8015921</createdBy>
+<createdTime>2015-06-08 05:02:16 UTC</createdTime>
+<ownerDesignName>EMERALD_CDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>434FB104-BE1C-D342-86CA-61744AB20B77</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4B73052D-A2D1-7CD3-A6FE-7451264F60A1">
+<designStoragePath>D:\all_tables</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
