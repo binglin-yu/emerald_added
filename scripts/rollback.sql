@@ -24,6 +24,7 @@ alter table projects drop (
 CDM_ID,
 LATITUDE,
 LONGITUDE,
+REGISTRATION_NUMBER,
 PROJECT_CATEGORY_ID,
 planned_annual_er);
 
@@ -31,8 +32,7 @@ drop table project_categories;
 
 
 alter table project_documents drop (
-DOCUMENT_ISSUER,
-REGISTRATION_NUMBER);
+DOCUMENT_ISSUER);
 
 alter table PROJECT_REDUCTIONS drop (
 PERIOD_START,
